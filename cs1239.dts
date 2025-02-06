@@ -1,0 +1,9 @@
+	cs1239 {
+			compatible = "qiyang,cs1239";
+			pinctrl-names = "default";
+			pinctrl-0 = <&pinctrl_gpio_cs1239>;
+			cs-gpios = <&gpio3 31 GPIO_ACTIVE_HIGH>;
+			sda-gpios = <&gpio2 8 GPIO_ACTIVE_HIGH>;
+			sck-gpios = <&gpio2 9 GPIO_ACTIVE_HIGH>;
+			status = "okay";
+	};
